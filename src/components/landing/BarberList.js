@@ -4,6 +4,7 @@ import barb6 from '../../img/barb6.jpg'
 import barb7 from '../../img/barb7.jpg'
 
 import './landing.css'
+import { Link } from 'react-router-dom'
 
 const BarberList = () => {
     return (
@@ -69,9 +70,9 @@ const BarberList = () => {
         </section>
 
         <section className="section-full-list">
-            <button className="view-all-barber">
-                view all barbers
-            </button>
+            <Link className="view-all-barber">
+                View all barbers
+            </Link>
         </section>
         </>
     )

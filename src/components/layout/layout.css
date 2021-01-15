@@ -43,6 +43,7 @@
         width: 30rem;
         padding: 5rem;
         transform: translateX(-500);
+        display: none;
 
         z-index: 10000;
     }
@@ -50,6 +51,7 @@
 
 .sidenav {
     height: 100vh;
+    display: block;
 }
 
 .nav-list {
@@ -64,6 +66,8 @@
 
 ._toggle-nav-bars {
     display: none;
+    color: #f1f6f9;
+    font-size: 2.5rem;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -74,3 +78,38 @@
     }
 }
 
+
+/*************FOOTER******************/
+
+.footer {
+    background-color: #14274e;
+    padding: 2rem;
+}
+
+.footer__item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .footer__list  {
+    padding: 1.2rem;
+} */
+
+.quick__links-header {
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    color: #f1f6f9;
+}
+
+.quick__links {
+    padding: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.quick__link {
+    color: #f1f6f9;
+}
+
+.contact__us {
+    color: #f1f6f9;
+}

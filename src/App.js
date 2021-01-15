@@ -5,6 +5,7 @@ import Navbar from './components/layout/Navbar'
 
 import './App.css'
 import BarberList from './components/landing/BarberList';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="App">
         <Navbar />
         <BarberList />
+        <Footer />
       </div>
     </BrowserRouter>
   );
