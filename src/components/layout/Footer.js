@@ -9,10 +9,9 @@ const Footer = () => {
                      <h4 className="quick__links-header">Quick Links</h4>
                      <div className="quick__links">
                          <p><NavLink to="/" className="quick__link">Home</NavLink></p>
-                         <p><NavLink to="/" className="quick__link">Courses</NavLink></p>
                          <p><NavLink to="/" className="quick__link">About Us</NavLink></p>
                          <p><NavLink to="/" className="quick__link">Contact Us</NavLink></p>
-                         <p><NavLink to="/" className="quick__link">Become A Tutor</NavLink></p>
+                         <p><NavLink to="/" className="quick__link">Become A Barber</NavLink></p>
                      </div>
                  </li>
                  <li className="footer__list">
