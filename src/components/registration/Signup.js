@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 const Signup = () => {
     return (
         <div className="regup-container">
-            <h3 className="reg-header">Login</h3>
+            <h3 className="reg-header">Signup</h3>
             <form className="reg-form">
                 <input type="text" className="reg-input" placeholder="First Name" />
                 <input type="text" className="reg-input" placeholder="Last Name" />
@@ -14,10 +14,10 @@ const Signup = () => {
             </form>
             <h4 className="reg-or">Or</h4>
             <div className="reg-option">
-                <Link to="/" className="reg-social">G</Link>
-                <Link to="/" className="reg-social">F</Link>
+                <Link to="/" className="reg-social"><i className="awfont fa fa-google"></i></Link>
+                <Link to="/" className="reg-social"><i className="awfont fa fa-facebook"></i></Link>
             </div>
-            <p className="reg-text">Already register? <NavLink to="/login" className="reg-register">Login</NavLink></p>
+            <p className="reg-text">Already registered? <NavLink to="/login" className="reg-register">Login</NavLink></p>
         </div>
     )
 }

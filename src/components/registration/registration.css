@@ -34,6 +34,10 @@
     border-bottom: 3px solid #14274e;
 }
 
+.reg-input:focus {
+    outline: none;
+}
+
 @media only screen and (max-width: 56.25em) {
     .reg-input {
         width: 80%;
@@ -90,4 +94,9 @@
         width: 80%;
         margin: 10rem auto;
     }
+}
+
+.awfont {
+    font-size: 2rem;
+    color: #fff;
 }

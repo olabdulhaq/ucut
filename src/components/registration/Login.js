@@ -13,8 +13,8 @@ const Login = () => {
             </form>
             <h4 className="reg-or">Or</h4>
             <div className="reg-option">
-                <Link to="/" className="reg-social"><i className="fab fa-google"></i></Link>
-                <Link to="/" className="reg-social"><i className="fab fa-facebook"></i></Link>
+                <Link to="/" className="reg-social"><i className="awfont fa fa-google"></i></Link>
+                <Link to="/" className="reg-social"><i className="awfont fa fa-facebook"></i></Link>
             </div>
             <p className="reg-text">New to uCutz? <NavLink to="/signup" className="reg-register">Register</NavLink></p>
         </div>
