@@ -1,0 +1,93 @@
+.reg-container {
+    width: 50%;
+    margin: 5rem auto;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .reg-container {
+        width: 80%;
+        margin: 10rem auto;
+    }
+}
+
+.reg-header {
+    padding: 1.5rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.reg-input {
+    display: block;
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: 0;
+    border-bottom: 3px solid #14274e;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .reg-input {
+        width: 80%;
+    }
+}
+
+.reg-btn {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 1rem;
+    width: 10rem;
+    text-align: center;
+}
+
+.reg-or {
+    text-align: center;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.reg-option {
+    display: flex;
+    justify-content: center;
+}
+
+.reg-social {
+    padding: 1rem;
+    border: 1px solid #fff;
+    margin: .8rem;
+    width: 10rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.reg-text {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.reg-register {
+    color: red;
+}
+
+/******Signup*********/
+.regup-container {
+    width: 50%;
+    margin: 1rem auto;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .regup-container {
+        width: 80%;
+        margin: 10rem auto;
+    }
+}

@@ -2,13 +2,16 @@ import React from 'react'
 import barb5 from '../../img/barb5.jpg'
 import barb6 from '../../img/barb6.jpg'
 import barb7 from '../../img/barb7.jpg'
+import SlideShow from '../layout/Slideshow'
 
 import './landing.css'
 import { Link } from 'react-router-dom'
+import Footer from '../layout/Footer'
 
 const BarberList = () => {
     return (
         <>
+         <SlideShow />
         <section className="section-search">
             <form className="search">
                 <input type="text" className="search__input" placeholder="Looking for a barber?" />
@@ -74,6 +77,7 @@ const BarberList = () => {
                 View all barbers
             </Link>
         </section>
+        <Footer />
         </>
     )
 }

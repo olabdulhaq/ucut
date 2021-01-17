@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom'
 
 import './layout.css'
-import SlideShow from './Slideshow'
 import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
@@ -26,8 +25,8 @@ const Navbar = () => {
                 >
                     <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><NavLink to="/" className="nav-link">About</NavLink></li>
                     <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><NavLink to="/" className="nav-link">Contact</NavLink></li>
-                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><NavLink to="/" className="nav-link">Login</NavLink></li>
-                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><NavLink to="/" className="nav-link">Sign up</NavLink></li>
+                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><NavLink to="/login" className="nav-link">Login</NavLink></li>
+                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><NavLink to="/signup" className="nav-link">Sign up</NavLink></li>
                 </ul>
                 <i
                     className={`fa fa-bars _toggle-nav-bars  fa-2x ${
@@ -37,7 +36,6 @@ const Navbar = () => {
                 ></i>
             </nav>  
         </header>
-        <SlideShow />
         </>
     )
 }
