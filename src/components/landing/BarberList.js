@@ -29,7 +29,7 @@ const BarberList = () => {
                 </div>
             </div>
             <div className="barber__item--right">
-                <h2 className="barber__shop-name">Rotex cutz</h2>
+                <Link to="/barberdetails"><h2 className="barber__shop-name">Rotex cutz</h2></Link>
                 <h3 className="barber__location">Bosso, Minna</h3>
                 <p className="barber__tagline">
                     A barber is a person whose occupation is mainly to cut
@@ -46,7 +46,7 @@ const BarberList = () => {
                 </div>
             </div>
             <div className="barber__item--right">
-                <h2 className="barber__shop-name">Kemzzy cutz</h2>
+            <Link to="/barberdetails"><h2 className="barber__shop-name">Kemzzy cutz</h2></Link>
                 <h3 className="barber__location">Sango, Ilorin</h3>
                 <p className="barber__tagline">
                     A barber is a person whose occupation is mainly to cut
@@ -63,7 +63,7 @@ const BarberList = () => {
                 </div>
             </div>
             <div className="barber__item--right">
-                <h2 className="barber__shop-name">Ango cutz</h2>
+            <Link to="/barberdetails"><h2 className="barber__shop-name">Ango cutz</h2></Link>
                 <h3 className="barber__location">Kajola, Kabba</h3>
                 <p className="barber__tagline">
                     A barber is a person whose occupation is mainly to cut

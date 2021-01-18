@@ -7,6 +7,7 @@ import './App.css'
 import BarberList from './components/landing/BarberList';
 import Login from './components/registration/Login';
 import Signup from './components/registration/Signup';
+import BarberDetails from './components/barbers/BarberDetails';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route exact path="/" component={BarberList} />
             <Route path="/login" component={Login} />
             <Route path="/signup" component={Signup} />
+            <Route path="/barberdetails" component={BarberDetails} />
           </Switch>
       </div>
     </BrowserRouter>

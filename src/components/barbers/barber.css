@@ -1,0 +1,28 @@
+.barber-info-image{
+    height: 60vh;
+    background-image: url('../../img/barb5.jpg');
+    background-position: top;
+    background-size: cover;
+}
+
+.barber-shop-info {
+    display: flex;
+    align-items: center;
+}
+
+.barber-shop-info >* {
+    padding: 2rem;
+}
+
+.barber-shop-info-name {
+    font-size: 1.6rem;
+}
+
+.barber-shop-info-location {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.barber-shop-info-rating {
+    font-size: 1.5rem;
+}

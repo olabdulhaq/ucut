@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom'
 
 import './layout.css'
-import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     const [showNav, setShowNav] = useState(false);
@@ -23,10 +22,10 @@ const Navbar = () => {
                     showNav ? "sidenav" : ""
                     }`}
                 >
-                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><NavLink to="/" className="nav-link">About</NavLink></li>
-                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><NavLink to="/" className="nav-link">Contact</NavLink></li>
-                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><NavLink to="/login" className="nav-link">Login</NavLink></li>
-                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><NavLink to="/signup" className="nav-link">Sign up</NavLink></li>
+                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><Link to="/" className="nav-link">About</Link></li>
+                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><Link to="/" className="nav-link">Contact</Link></li>
+                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><Link to="/login" className="nav-link">Login</Link></li>
+                    <li className={`nav-list ${showNav ? "sidenav-link" : ""}`}><Link to="/signup" className="nav-link">Sign up</Link></li>
                 </ul>
                 <i
                     className={`fa fa-bars _toggle-nav-bars  fa-2x ${
